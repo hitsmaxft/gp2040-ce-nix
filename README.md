@@ -1,4 +1,4 @@
-s
+nix package and dev shell for gp2040ce project
 
 ```
 git+file:///..../gp2040-ce.nix
@@ -22,3 +22,13 @@ git+file:///..../gp2040-ce.nix
     └───x86_64-linux
     └───pico-sdk: package 'pico-sdk-1.5.1'
 ```
+
+
+## usage
+
+with direnv 
+
+```
+use flake "github:hitsmaxft/gp2040-ce-nix/master"
+```
+
