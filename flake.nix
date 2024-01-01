@@ -13,7 +13,7 @@
     in
     {
       packages.pico-sdk = pico-sdk;
-      packages.dev-shell =  dev-shell;
+      devShell =  dev-shell;
       defaultPackage = pico-sdk;
     }
     );
