@@ -26,7 +26,7 @@ git+file:///..../gp2040-ce.nix
 
 ## usage
 
-with direnv 
+init develop shell with direnv 
 
 ```
 use flake "github:hitsmaxft/gp2040-ce-nix/master"
