@@ -26,9 +26,23 @@ git+file:///..../gp2040-ce.nix
 
 ## usage
 
-init develop shell with direnv 
+### direnv 
+auto load a develop shell by direnv 
+
+add following configuration to `.envrc`
 
 ```
 use flake "github:hitsmaxft/gp2040-ce-nix/master"
 ```
+
+### flake package
+
+```flake.nix
+
+```
+
+### nix shell
+
+TODO 
+
 
